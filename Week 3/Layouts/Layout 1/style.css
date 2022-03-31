@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    border: 3px solid black;
+    clear: both;
+}
+
+.top {
+    height: 200px;
+    width: 33.3333%;
+    float: left;
+    border: 3px solid black;
+}
+
+.bottom {
+    height: 300px;
+    width: 50%;
+    float: left;
+    border: 3px solid black;
+}

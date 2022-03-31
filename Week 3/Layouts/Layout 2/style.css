@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    height: 100px;
+    clear: both;
+    border: 3px solid black;
+}
+
+section {
+    border: 3px solid black;
+}
+
+.top {
+    height: 200px;
+
+}
+
+.left {
+    height: 200px;
+    width: 33.3333%;
+    float: left;
+}
+
+.right {
+    height: 200px;
+    width: 66.666%;
+    float: left;
+}
