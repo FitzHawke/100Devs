@@ -29,12 +29,23 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+header * {
+  color: white;
 }
 
-footer {
+header {
+  background-color: black;
+  height: 32px;
+}
 
+nav * {
+  float: left;
+  width: 15%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 /******************************************
