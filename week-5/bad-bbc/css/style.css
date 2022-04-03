@@ -1,20 +1,20 @@
 /* Box Model Hack */
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
 
 .clear {
-	clear: both;
+    clear: both;
 }
 
 /******************************************
@@ -22,68 +22,81 @@
 /*******************************************/
 
 body {
-
 }
-
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 header * {
-  color: white;
+    color: white;
 }
 
 header {
-  background-color: black;
-  height: 60px;
+    background-color: black;
+    height: 50px;
+}
+
+nav {
+    padding: 15px;
 }
 
 nav * {
-  float: left;
-  width: 10%;
+    float: left;
+    width: 10%;
 }
 
 nav > ul {
-  width: 50%;
-  list-style: none;
-  margin: 0;
+    width: 60%;
+    list-style: none;
+    margin: 0;
 }
 
 nav > ul > li {
-  margin: 0;
-  padding: 0 10px;
-  text-decoration: none;
+    margin: 0;
+    padding: 0 10px;
+}
+
+li a {
+    text-decoration: none;
 }
 
 nav > form > input {
-  width: 100%;
+    width: 100%;
 }
 
-main > div {
-  height: 60px;
-  margin-bottom: 6px;
+main div {
+    height: 80px;
+}
+
+main > div > h2 {
+    float: left;
+}
+
+main > div > h3 {
+    float: right;
 }
 
 section {
-  border: 2px solid black;
+    border: 2px solid black;
 }
 
-.topStory, .bigNews {
-  float: left;
-  width: 50%;
-  height: 600px;
+.topStory,
+.bigNews {
+    float: left;
+    width: 50%;
+    height: 500px;
 }
 
 .bigNews > section {
-  float: left;
-  width: 50%;
-  height: 300px;
+    float: left;
+    width: 50%;
+    height: 250px;
 }
 
 .moreNews > section {
-  float: left;
-  width: 33.3333%;
-  height: 400px;
+    float: left;
+    width: 33.3333%;
+    height: 300px;
 }
 /******************************************
 /* ADDITIONAL STYLES
