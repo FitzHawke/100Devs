@@ -35,19 +35,56 @@ header * {
 
 header {
   background-color: black;
-  height: 32px;
+  height: 60px;
 }
 
 nav * {
   float: left;
-  width: 15%;
+  width: 10%;
 }
 
-ul {
+nav > ul {
+  width: 50%;
+  list-style: none;
   margin: 0;
-  padding: 0;
 }
 
+nav > ul > li {
+  margin: 0;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+nav > form > input {
+  width: 100%;
+}
+
+main > div {
+  height: 60px;
+  margin-bottom: 6px;
+}
+
+section {
+  border: 2px solid black;
+}
+
+.topStory, .bigNews {
+  float: left;
+  width: 50%;
+  height: 600px;
+}
+
+.bigNews > section {
+  float: left;
+  width: 50%;
+  height: 300px;
+}
+
+.moreNews > section {
+  float: left;
+  width: 33.3333%;
+  height: 400px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
