@@ -11,8 +11,46 @@
 /* LAYOUT
 /*******************************************/
 
+body {
+  margin: auto;
+  max-width: 1200px;
+}
 
+nav > * {
+  float: left;
+  width: 12%;
+  margin: 0 5%;
+  padding: 0;
+}
 
+nav > form > input {
+  width: 100%;
+}
+
+nav > h2 {
+  margin: 0 50px;
+}
+
+nav > ul {
+  float: left;
+  list-style: none;
+  width: 25%;
+}
+
+nav > ul > li {
+  float: left;
+  padding: 10px;
+}
+
+main > section {
+  float: left;
+  width: 50%;
+  margin-top: 100px;
+}
+
+img {
+  width: 90%;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
