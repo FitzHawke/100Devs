@@ -12,7 +12,13 @@ function getImage() {
             document.querySelector(
                 "h2"
             ).innerText = `${data.date} ${data.title} - ${data.copyright}`;
-            document.querySelector("img").src = data.hdurl;
+            if (data.media_type === "video"){
+                document.querySelector("img").src = '#';
+                document.querySelector("iframe").src = data.url;
+            } else {
+                document.querySelector("iframe").src = '#';
+                document.querySelector("img").src = data.hdurl;
+            }
             document.querySelector("h3").innerText = data.explanation;
         })
         .catch((err) => {
